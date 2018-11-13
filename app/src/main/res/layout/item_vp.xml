@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meis.widget.photodrag.PhotoDragRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pdr_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+
+
+
+
+    <me.relex.photodraweeview.PhotoDraweeView
+        android:id="@+id/pdv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_mei_ripple" />
+
+</com.meis.widget.photodrag.PhotoDragRelativeLayout>
